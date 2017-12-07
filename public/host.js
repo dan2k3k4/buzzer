@@ -11,13 +11,12 @@ socket.on('buzzes', (buzzes) => {
   buzzList.innerHTML = buzzes
     .map(buzz => {
       const p = buzz.split('-')
-      return { name: p[0], team: p[1] }
+      return { name: p[0] }
     })
-    .map(user => `<li>${user.name} on Team ${user.team}</li>`)
+    .map(user => `<li>${user.name}</li>`)
     .join('')
 })
 
 clear.addEventListener('click', () => {
   socket.emit('clear')
 })
-

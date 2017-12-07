@@ -23,8 +23,7 @@ Open http://localhost:8090 in your browser to start!
 
 ## How to use
 
-The players goto the homepage (`http://localhost:8090/`) and they can enter their name and team
-number. Joining will give them a giant buzzer button!
+The players goto the homepage (`http://localhost:8090/`) and they can enter their name. Joining will give them a giant buzzer button!
 
 ![Player view](https://github.com/bufferapp/buzzer/blob/master/screenshots/player-v1.png?raw=true)
 

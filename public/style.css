@@ -85,7 +85,9 @@ button:active {
 
 .buzzer {
   height: 10em;
+  width: 10em;
   font-size: 2em;
+  border-radius: 50%;
 }
 
 .secondary {
